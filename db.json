@@ -1,0 +1,88 @@
+[
+  {
+    "id": 1,
+    "file": "cool.jpg",
+    "tag": "cool",
+    "tag": "sunglasses",
+    "tag": "smiling face with sunglasses"
+  },
+  {
+    "id": 2,
+    "file": "blinking.jpg",
+    "tag": "blinking",
+    "tag": "winking",
+    "tag": "wink",
+    "tag": "winky"
+  },
+  {
+    "id": 3,
+    "file": "happy.jpg",
+    "tag": "happy",
+    "tag": "smile",
+    "tag": "smiley"
+  },
+  {
+    "id": 4,
+    "file": "pointing.jpg",
+    "tag": "pointing",
+    "tag": "smile",
+    "tag": "smiley"
+  },
+  {
+    "id": 5,
+    "file": "grumpy.jpg",
+    "tag": "grumpy",
+    "tag": "angry"
+  },
+  {
+    "id": 6,
+    "file": "ear.jpg",
+    "tag": "ear",
+    "tag": "hearing",
+    "tag": "listening"
+  },
+  {
+    "id": 7,
+    "file": "angry.jpg",
+    "tag": "angry",
+    "tag": "horns",
+    "tag": "devil",
+    "tag": "goblin",
+    "tag": "imp",
+    "tag": "orge"
+  },
+  {
+    "id": 8,
+    "file": "gun.jpg",
+    "tag": "gun",
+    "tag": "revolver",
+    "tag": "pistol"
+  },
+  {
+    "id": 9,
+    "file": "shrug.jpg",
+    "tag": "shrug",
+    "tag": "shrugging",
+    "tag": "giving up"
+  },
+  {
+    "id": 10,
+    "file": "heart.jpg",
+    "tag": "heart",
+    "tag": "love",
+    "tag": "beating heart",
+    "tag": "broken heart",
+    "tag": "Heartbeat",
+    "tag": "orge"
+  },
+  {
+    "id": 11,
+    "file": "kiss.jpg",
+    "tag": "kiss",
+    "tag": "couple kissing",
+    "tag": "kissy face",
+    "tag": "duck face",
+    "tag": "Blow A Kiss",
+    "tag": "Kissing"
+  }
+]
