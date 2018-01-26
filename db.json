@@ -84,5 +84,14 @@
     "tag": "duck face",
     "tag": "Blow A Kiss",
     "tag": "Kissing"
+  },
+  {
+    "id": 12,
+    "file": "facepalm.jpg",
+    "tag": "facepalm",
+    "tag": "face palm",
+    "tag": "Hitting Head",
+    "tag": "Picard",
+    "tag": "SMH"
   }
 ]
