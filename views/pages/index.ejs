@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+
+  <div class="putin">
+    <div class="grid-x">
+      <div class="cell query">
+        <label>Search for putin
+          <input id="searchBox" type="text" placeholder="E.g. cool">
+        </label>
+      </div>
+      <div class="cell content">
+        <div id="spinnerBox">
+          <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+          </div>
+        </div>
+        <div id="resultBox">
+          <div class="grid-x">
+            <div class="small-11 cell">
+              <input id="linkBox" type="text" placeholder="">
+            </div>
+            <div class="small-1 cell">
+              <a href="#" id="copyButton" onclick="copyToClipboard('#linkBox')" class="button">Copy</a>
+            </div>
+          </div>
+          <div class="grid-x">
+            <div id="imageBox" class="cell">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>

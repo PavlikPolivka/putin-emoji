@@ -1,0 +1,7 @@
+{
+  "name": "Putin Emoji",
+  "description": "Putin Emoji App",
+  "repository": "https://github.com/pavlikpolivka/putin-emoji",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}
