@@ -71,6 +71,7 @@
     "file": "heart.jpeg",
     "tag": "heart",
     "tag": "love",
+    "tag": "inlove",
     "tag": "beating heart",
     "tag": "broken heart",
     "tag": "Heartbeat"
@@ -99,7 +100,6 @@
     "file": "cry.jpg",
     "tag": "cry",
     "tag": "bawling",
-    "tag": "sad",
     "tag": "sobbing",
     "tag": "tear"
   },
@@ -122,8 +122,7 @@
   {
     "id": 16,
     "file": "puke.jpg",
-    "tag": "puke",
-    "tag": "sick"
+    "tag": "puke"
   },
   {
     "id": 17,
@@ -146,5 +145,52 @@
     "tag": "beer",
     "tag": "lager",
     "tag": "beer stein"
+  },
+  {
+    "id": 20,
+    "file": "worried.jpg",
+    "tag": "worried",
+    "tag": "worry",
+    "tag": "sad"
+  },
+  {
+    "id": 21,
+    "file": "thinking.jpg",
+    "tag": "thinking",
+    "tag": "thinker",
+    "tag": "Chin Thumb",
+    "tag": "Throwing Shade"
+  },
+  {
+    "id": 22,
+    "file": "sleeping.jpg",
+    "tag": "sleeping",
+    "tag": "sleep",
+    "tag": "snoring",
+    "tag": "zzz"
+  },
+  {
+    "id": 23,
+    "file": "tired.jpg",
+    "tag": "tired",
+    "tag": "Exhausted",
+    "tag": "fed up",
+    "tag": "yawning"
+  },
+  {
+    "id": 24,
+    "file": "relieved.jpg",
+    "tag": "relieved",
+    "tag": "whew",
+    "tag": "content",
+    "tag": "pleased"
+  },
+  {
+    "id": 25,
+    "file": "sick.jpg",
+    "tag": "sick",
+    "tag": "ill",
+    "tag": "Disgust",
+    "tag": "Nauseated"
   }
 ]
