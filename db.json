@@ -12,7 +12,8 @@
     "tag": "blinking",
     "tag": "winking",
     "tag": "wink",
-    "tag": "winky"
+    "tag": "winky",
+    "tag": "blink"
   },
   {
     "id": 3,
@@ -92,5 +93,36 @@
     "tag": "Hitting Head",
     "tag": "Picard",
     "tag": "SMH"
+  },
+  {
+    "id": 13,
+    "file": "cry.jpg",
+    "tag": "cry",
+    "tag": "bawling",
+    "tag": "sad",
+    "tag": "sobbing",
+    "tag": "tear"
+  },
+  {
+    "id": 14,
+    "file": "lol.jpg",
+    "tag": "lol",
+    "tag": "Laughing"
+  },
+  {
+    "id": 15,
+    "file": "celebrating.jpg",
+    "tag": "celebrating",
+    "tag": "celebration",
+    "tag": "party hat",
+    "tag": "sobbing",
+    "tag": "champagne",
+    "tag": "glass"
+  },
+  {
+    "id": 16,
+    "file": "puke.jpg",
+    "tag": "puke",
+    "tag": "sick"
   }
 ]
