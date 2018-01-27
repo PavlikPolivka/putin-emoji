@@ -1,6 +1,9 @@
 #searchBox {
-  width: 350px;
-  margin-top: 10px;
+  margin-top: 15px;
+}
+
+.logo-wrapper {
+  max-width: 220px;
 }
 
 #putin {
@@ -24,6 +27,7 @@
 
 #resultBox {
   display: none;
+  padding-top: 30px;
 }
 
 .spinner {
