@@ -159,6 +159,7 @@
     "tag": "thinking",
     "tag": "thinker",
     "tag": "Chin Thumb",
+    "tag": "hmmmm",
     "tag": "Throwing Shade"
   },
   {
@@ -175,7 +176,8 @@
     "tag": "tired",
     "tag": "Exhausted",
     "tag": "fed up",
-    "tag": "yawning"
+    "tag": "yawning",
+    "tag": "bored"
   },
   {
     "id": 24,
@@ -192,5 +194,13 @@
     "tag": "ill",
     "tag": "Disgust",
     "tag": "Nauseated"
+  },
+  {
+    "id": 26,
+    "file": "wine.jpg",
+    "tag": "wine",
+    "tag": "red wine",
+    "tag": "alcohol",
+    "tag": "wine glass"
   }
 ]
