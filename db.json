@@ -139,5 +139,12 @@
     "tag": "pile of poop",
     "tag": "dog dirt",
     "tag": "smiling poop"
+  },
+  {
+    "id": 19,
+    "file": "beer.jpg",
+    "tag": "beer",
+    "tag": "lager",
+    "tag": "beer stein"
   }
 ]
