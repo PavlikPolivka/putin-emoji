@@ -129,7 +129,7 @@
                     catenateAll="0"
                     preserveOriginal="1"
             />
-
+            <filter class="solr.PorterStemFilterFactory"/>
             <filter class="solr.ASCIIFoldingFilterFactory" preserveOriginal="true"/>
             <filter class="solr.ICUFoldingFilterFactory"/>
 
@@ -148,7 +148,7 @@
                     catenateAll="0"
                     preserveOriginal="1"
             />
-
+            <filter class="solr.PorterStemFilterFactory"/>
             <filter class="solr.ASCIIFoldingFilterFactory" preserveOriginal="true"/>
             <filter class="solr.ICUFoldingFilterFactory"/>
 
