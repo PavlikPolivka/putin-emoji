@@ -124,5 +124,12 @@
     "file": "puke.jpg",
     "tag": "puke",
     "tag": "sick"
+  },
+  {
+    "id": 17,
+    "file": "handshake.jpg",
+    "tag": "handshake",
+    "tag": "hand shake",
+    "tag": "shaking hands"
   }
 ]
