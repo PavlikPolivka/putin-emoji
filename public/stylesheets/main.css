@@ -6,6 +6,12 @@
   max-width: 220px;
 }
 
+.bottom {
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+}
+
 #putin {
   max-width: 100%;
   height: auto;

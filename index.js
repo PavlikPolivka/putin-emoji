@@ -16,6 +16,7 @@ express()
   .set('views', path.join(__dirname, 'views'))
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.render('pages/index'))
+  .get('/docs/rest', (req, res) => res.render('pages/rest-api'))
   .get('/q', function (req, res) {
     var query = client.query()
         .q(req.query.s)

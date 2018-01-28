@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <% include ../partials/header.ejs %>
+</head>
+
+<body>
+
+<div class="">
+
+    <header>
+        <nav class="container">
+            <div class="row">
+                <div class="col-md-4 logo-wrapper">
+                    <a href="/"><img src="/img/logo.png" alt="logo" /></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>REST API - documentation</h1>
+
+        <p>
+            Putin Emoji has publicly accessible REST API endpoint that you can use for searching for your favorite putin emoji.
+        </p>
+        <p>
+            <pre>GET https://putinemoji.com/q?s=${queryString}</pre>
+        </p>
+        <p>
+            Response is in json format.
+            <pre>
+            [
+                {
+                    "id":"1",
+                    "file":"cool.jpg",
+                    "tag":[
+                        "cool",
+                        "sunglasses",
+                        "smiling face with sunglasses"
+                    ],
+                    "_version_":1590782344872067000
+                }
+            ]
+            </pre>
+        </p>
+        <p>
+            Append the file to the cdn prefix. <pre>https://putinemoji.com/cdn/${file}</pre>.
+        </p>
+        <p>
+            Tags are all the tags associated to this image.
+        </p>
+    </main>
+
+</div>
+</body>
