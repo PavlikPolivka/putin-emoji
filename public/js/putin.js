@@ -13,16 +13,14 @@ $(document).ready(function () {
                     $("#imageBox").html("<img id='putin' src='"+ imagePath + "'/>");
                     $("#linkBox").val("https://putinemoji.com" + imagePath);
                     $("#resultBox").show();
-                    gtag({
-                        'event':'VirtualPageview',
-                        'virtualPageURL':'/search?searchText=' + str,
-                        'virtualPageTitle' : str
+                    gtag('event', 'search', {
+                        'term': str,
+                        'results': 'true'
                     });
                 } else {
-                    gtag({
-                        'event':'VirtualPageview',
-                        'virtualPageURL':'/search?searchText=' + str,
-                        'virtualPageTitle' : "404"
+                    gtag('event', 'search', {
+                        'term': str,
+                        'results': 'false'
                     });
                 }
             });
