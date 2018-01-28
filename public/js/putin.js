@@ -2,10 +2,6 @@ $(document).ready(function () {
 
     var timeoutID = null;
 
-    if(typeof ga != 'function'){
-        window.ga = function(){};
-    }
-
     function findImage(str) {
         $("#spinnerBox").show();
         $("#resultBox").hide();
