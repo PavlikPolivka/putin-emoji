@@ -201,5 +201,187 @@
     "tag": "red wine",
     "tag": "alcohol",
     "tag": "wine glass"
+  },
+  {
+    "id": 27,
+    "file": "grinning.jpg",
+    "tag": "grinning",
+    "tag": "teeth",
+    "tag": "beaming"
+  },
+  {
+    "id": 28,
+    "file": "rofl.jpg",
+    "tag": "rofl",
+    "tag": "Rolling on the Floor"
+  },
+  {
+    "id": 29,
+    "file": "goofy.jpg",
+    "tag": "goofy",
+    "tag": "hungry",
+    "tag": "Savouring Delicious Food",
+    "tag": "toungue"
+  },
+  {
+    "id": 30,
+    "file": "hugging.jpg",
+    "tag": "hugging",
+    "tag": "hug",
+    "tag": "hugs"
+  },
+  {
+    "id": 31,
+    "file": "starstruck.jpg",
+    "tag": "star",
+    "tag": "starstruck",
+    "tag": "exited",
+    "tag": "wow"
+  },
+  {
+    "id": 32,
+    "file": "neutral.jpg",
+    "tag": "neutral",
+    "tag": "poker",
+    "tag": "Straight",
+    "tag": "Expressionless"
+  },
+  {
+    "id": 33,
+    "file": "smirking.jpg",
+    "tag": "smirking",
+    "tag": "flirting",
+    "tag": "smug",
+    "tag": "suggestive",
+    "tag": "sexual"
+  },
+  {
+    "id": 34,
+    "file": "thumbsup.jpg",
+    "tag": "thumbsup",
+    "tag": "thumbs up",
+    "tag": "yes",
+    "tag": "like",
+    "tag": "ok",
+    "tag": "Okay",
+    "tag": "perfect"
+  },
+  {
+    "id": 35,
+    "file": "raisedhand.jpg",
+    "tag": "raised hand",
+    "tag": "high five",
+    "tag": "stop"
+  },
+  {
+    "id": 36,
+    "file": "fist.jpg",
+    "tag": "fist",
+    "tag": "raised fist",
+    "tag": "fist pump"
+  },
+  {
+    "id": 37,
+    "file": "selfie.jpg",
+    "tag": "selfie",
+    "tag": "phone camera",
+    "tag": "camera"
+  },
+  {
+    "id": 38,
+    "file": "biceps.jpg",
+    "tag": "biceps",
+    "tag": "strong",
+    "tag": "flexed biceps",
+    "tag": "muscle",
+    "tag": "strong arm"
+  },
+  {
+    "id": 39,
+    "file": "clapping.jpg",
+    "tag": "clapping",
+    "tag": "applause",
+    "tag": "clap",
+    "tag": "Round Of Applause",
+    "tag": "golf clap"
+  },
+  {
+    "id": 40,
+    "file": "praying.jpg",
+    "tag": "praying",
+    "tag": "folded hands"
+  },
+  {
+    "id": 41,
+    "file": "middlefinger.jpg",
+    "tag": "middlefinger",
+    "tag": "Dito Medio",
+    "tag": "Flipping The Bird",
+    "tag": "Middle Finger",
+    "tag": "Rude Finger"
+  },
+  {
+    "id": 42,
+    "file": "victoryfingers.jpg",
+    "tag": "victoryfingers",
+    "tag": "victory fingers",
+    "tag": "victory hand",
+    "tag": "peace sign",
+    "tag": "v",
+    "tag": "air quotes"
+  },
+  {
+    "id": 43,
+    "file": "cake.jpg",
+    "tag": "cake",
+    "tag": "Birthday",
+    "tag": "Birthday cake"
+  },
+  {
+    "id": 44,
+    "file": "king.jpg",
+    "tag": "king",
+    "tag": "lion",
+    "tag": "deal with it"
+  },
+  {
+    "id": 45,
+    "file": "wrestling.jpg",
+    "tag": "wrestling",
+    "tag": "arm wrestling"
+  },
+  {
+    "id": 46,
+    "file": "swimming.jpg",
+    "tag": "swimming",
+    "tag": "swim",
+    "tag": "swimmer"
+  },
+  {
+    "id": 47,
+    "file": "skiing.jpg",
+    "tag": "skiing",
+    "tag": "ski"
+  },
+  {
+    "id": 48,
+    "file": "hockey.jpg",
+    "tag": "hockey",
+    "tag": "ice skating",
+    "tag": "ice skate",
+    "tag": "skate"
+  },
+  {
+    "id": 49,
+    "file": "bow.jpg",
+    "tag": "bow",
+    "tag": "arrow"
+  },
+  {
+    "id": 50,
+    "file": "motorcycle.jpg",
+    "tag": "motorcycle",
+    "tag": "motor cycle",
+    "tag": "bike"
   }
 ]
