@@ -2,6 +2,10 @@ $(document).ready(function () {
 
     var timeoutID = null;
 
+    if(typeof ga != 'function'){
+        window.ga = function(){};
+    }
+
     function findImage(str) {
         $("#spinnerBox").show();
         $("#resultBox").hide();
@@ -14,6 +18,7 @@ $(document).ready(function () {
                     $("#linkBox").val("https://putinemoji.com" + imagePath);
                     $("#resultBox").show();
                 }
+                ga('send', 'pageview', '/search?searchText=' + str);
             });
     }
 
