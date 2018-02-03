@@ -14,6 +14,10 @@
   padding-top: 25px;
 }
 
+.card-columns {
+  column-count: 4;
+}
+
 img.smallPutin {
   pointer-events: auto;
   cursor: pointer;
@@ -28,6 +32,10 @@ img.smallPutin {
   position: absolute;
 }
 
+.card {
+  display: inline-block;
+}
+
 @media (max-width: 768px) {
 
   .form-control-clear {
@@ -37,6 +45,10 @@ img.smallPutin {
     right: 21px;
     top: 20px;
     position: absolute;
+  }
+
+  .card-columns {
+    column-count: 2;
   }
 
 }
