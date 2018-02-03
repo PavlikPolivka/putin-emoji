@@ -57,24 +57,27 @@ $(document).ready(function () {
 
 function renderRecent() {
     var recent = getRecent();
-    var $recentBox = $('#recentBox');
-    $recentBox.html('');
-    for (var i=recent.length - 1; i >= 0; i--) {
-        var emoji = recent[i];
-        var imagePath = "/cdn/" + emoji.file;
-        var recentHtml = "<div class='col-4'><img class='smallPutin' src='" + imagePath + "' title=' " + emoji.tag[0] + " '></div>";
-        var html = $recentBox.html();
-        $recentBox.html(recentHtml + html);
+    if(recent.length > 0) {
+        $("#recentWrapper").show();
+        var $recentBox = $('#recentBox');
+        $recentBox.html('');
+        for (var i = recent.length - 1; i >= 0; i--) {
+            var emoji = recent[i];
+            var imagePath = "/cdn/" + emoji.file;
+            var recentHtml = "<div class='col-4'><img class='smallPutin' src='" + imagePath + "' title=' " + emoji.tag[0] + " '></div>";
+            var html = $recentBox.html();
+            $recentBox.html(recentHtml + html);
+        }
+        $(".smallPutin").click(function () {
+            var url = "https://putinemoji.com" + $(this).attr('src');
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val(url).select();
+            document.execCommand("copy");
+            $temp.remove();
+            notifyCopied($(this));
+        });
     }
-    $(".smallPutin").click(function() {
-        var url = "https://putinemoji.com" + $(this).attr('src');
-        var $temp = $("<input>");
-        $("body").append($temp);
-        $temp.val(url).select();
-        document.execCommand("copy");
-        $temp.remove();
-        notifyCopied($(this));
-    });
 }
 
 function getRecent() {
