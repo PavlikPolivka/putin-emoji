@@ -14,8 +14,13 @@
           <div class="col-md-4 logo-wrapper">
             <a href="/"><img src="/img/logo.png" alt="logo" /></a>
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8 btn-group has-clear">
             <input id="searchBox" class="form-control form-control-lg" type="text" placeholder="Search for emoji. E.g. cool">
+            <span class="form-control-clear hidden">
+              <button class="btn btn-default">
+                Clean
+              </button>
+            </span>
           </div>
         </div>
       </nav>
@@ -36,12 +41,21 @@
           <div class="input-group">
             <input id="linkBox" type="text" class="form-control">
             <span class="input-group-btn">
-                <button class="btn btn-default" onclick="copyToClipboard('#linkBox')" type="button">Copy url</button>
+                <button id="copyBox" class="btn btn-default" onclick="copyToClipboard('#linkBox'); notifyCopied($('#copyBox'));" type="button">Copy url</button>
             </span>
           </div>
         </div>
         <div class="row">
           <div id="imageBox">
+          </div>
+        </div>
+      </div>
+
+      <div id="recentWrapper">
+        <h3 title="Click the image to copy the url.">Your Recent Putin's</h3>
+        <div id="recentBox" class="row">
+          <div class="col-4">
+            a
           </div>
         </div>
       </div>

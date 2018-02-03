@@ -2,6 +2,35 @@
   margin-top: 15px;
 }
 
+::-ms-clear {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+#recentWrapper {
+  padding-top: 25px;
+}
+
+img.smallPutin {
+  width: 100%;
+  height: 171px;
+  padding-top: 15px;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.form-control-clear {
+  z-index: 10;
+  pointer-events: auto;
+  cursor: pointer;
+  right: 30px;
+  top: 25px;
+  position: absolute;
+}
+
 .logo-wrapper {
   max-width: 220px;
 }
