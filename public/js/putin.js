@@ -101,8 +101,8 @@ function storeRecent(data) {
     }
     if(canAdd) {
         recent.unshift(data);
-        if (recent.length > 9) {
-            recent.length = 9;
+        if (recent.length > 18) {
+            recent.length = 18;
         }
         localStorage.setItem("recentPutin", JSON.stringify(recent));
     }
