@@ -64,9 +64,10 @@ function renderRecent() {
         for (var i = recent.length - 1; i >= 0; i--) {
             var emoji = recent[i];
             var imagePath = "/cdn/" + emoji.file;
-            var recentHtml = "<div class='col-4'><img class='smallPutin' src='" + imagePath + "' title=' " + emoji.tag[0] + " '></div>";
+            var recentHtml = "<div class='card'><img class='smallPutin card-img-top img-fluid' src='" + imagePath + "' title=' " + emoji.tag[0] + " '></div>";
             var html = $recentBox.html();
-            $recentBox.html(recentHtml + html);
+            var finalHtml = recentHtml + html;
+            $recentBox.html(finalHtml);
         }
         $(".smallPutin").click(function () {
             var url = "https://putinemoji.com" + $(this).attr('src');
@@ -92,11 +93,19 @@ function getRecent() {
 
 function storeRecent(data) {
     var recent = getRecent();
-    recent.unshift(data);
-    if(recent.length > 6) {
-        recent.length = 6;
+    var canAdd = true;
+    for (var i = recent.length - 1; i >= 0; i--) {
+        if(recent[i].id === data.id) {
+            canAdd = false;
+        }
     }
-    localStorage.setItem("recentPutin", JSON.stringify(recent));
+    if(canAdd) {
+        recent.unshift(data);
+        if (recent.length > 9) {
+            recent.length = 9;
+        }
+        localStorage.setItem("recentPutin", JSON.stringify(recent));
+    }
 }
 
 function copyToClipboard(element) {
