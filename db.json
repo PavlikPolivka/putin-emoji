@@ -49,7 +49,10 @@
     "tag": "devil",
     "tag": "goblin",
     "tag": "imp",
-    "tag": "orge"
+    "tag": "orge",
+    "tag": "bad",
+    "tag": "mad",
+    "tag": "mean"
   },
   {
     "id": 8,
@@ -136,7 +139,8 @@
     "tag": "poop",
     "tag": "pile of poop",
     "tag": "dog dirt",
-    "tag": "smiling poop"
+    "tag": "smiling poop",
+    "tag": "toilet"
   },
   {
     "id": 19,
@@ -150,7 +154,8 @@
     "file": "worried.jpg",
     "tag": "worried",
     "tag": "worry",
-    "tag": "sad"
+    "tag": "sad",
+    "tag": "Disappointed"
   },
   {
     "id": 21,
@@ -253,7 +258,8 @@
     "tag": "flirting",
     "tag": "smug",
     "tag": "suggestive",
-    "tag": "sexual"
+    "tag": "sexual",
+    "tag": "sexy"
   },
   {
     "id": 34,
@@ -294,7 +300,8 @@
     "tag": "strong",
     "tag": "flexed biceps",
     "tag": "muscle",
-    "tag": "strong arm"
+    "tag": "strong arm",
+    "tag": "masculine"
   },
   {
     "id": 39,
@@ -383,5 +390,67 @@
     "tag": "motorcycle",
     "tag": "motor cycle",
     "tag": "bike"
+  },
+  {
+    "id": 51,
+    "file": "cook.jpg",
+    "tag": "cook",
+    "tag": "food"
+  },
+  {
+    "id": 52,
+    "file": "bear.jpg",
+    "tag": "bear"
+  },
+  {
+    "id": 53,
+    "file": "dog.jpg",
+    "tag": "dog",
+    "tag": "doggy",
+    "tag": "cute"
+  },
+  {
+    "id": 54,
+    "file": "funny.jpg",
+    "tag": "funny"
+  },
+  {
+    "id": 55,
+    "file": "weed.jpg",
+    "tag": "weed"
+  },
+  {
+    "id": 56,
+    "file": "shock.jpg",
+    "tag": "shock",
+    "tag": "shocked",
+    "tag": "mind blown",
+    "tag": "mind blowned",
+    "tag": "exploding head"
+  },
+  {
+    "id": 57,
+    "file": "judo.jpg",
+    "tag": "judo",
+    "tag": "karate",
+    "tag": "kung fu",
+    "tag": "ninja"
+  },
+  {
+    "id": 58,
+    "file": "wave.jpg",
+    "tag": "wave",
+    "tag": "waving"
+  },
+  {
+    "id": 59,
+    "file": "badass.jpg",
+    "tag": "badass"
+  },
+  {
+    "id": 60,
+    "file": "horse.jpg",
+    "tag": "horse",
+    "tag": "animal"
   }
 ]

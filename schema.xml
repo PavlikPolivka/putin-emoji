@@ -129,11 +129,11 @@
                     catenateAll="0"
                     preserveOriginal="1"
             />
-            <filter class="solr.PorterStemFilterFactory"/>
             <filter class="solr.ASCIIFoldingFilterFactory" preserveOriginal="true"/>
             <filter class="solr.ICUFoldingFilterFactory"/>
 
             <filter class="solr.LowerCaseFilterFactory"/>
+            <filter class="solr.PorterStemFilterFactory"/>
         </analyzer>
         <analyzer type="query">
             <charFilter class="solr.HTMLStripCharFilterFactory"/>
@@ -148,12 +148,12 @@
                     catenateAll="0"
                     preserveOriginal="1"
             />
-            <filter class="solr.PorterStemFilterFactory"/>
             <filter class="solr.ASCIIFoldingFilterFactory" preserveOriginal="true"/>
             <filter class="solr.ICUFoldingFilterFactory"/>
 
             <filter class="solr.SynonymFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="true"/>
             <filter class="solr.LowerCaseFilterFactory"/>
+            <filter class="solr.PorterStemFilterFactory"/>
 
         </analyzer>
     </fieldType>
