@@ -2,6 +2,14 @@
   margin-top: 15px;
 }
 
+.easy-autocomplete{
+  width:100% !important
+}
+
+.easy-autocomplete input{
+  width: 100%;
+}
+
 ::-ms-clear {
   display: none;
 }
@@ -27,8 +35,8 @@ img.smallPutin {
   z-index: 10;
   pointer-events: auto;
   cursor: pointer;
-  right: 30px;
-  top: 25px;
+  right: 21px;
+  top: 22px;
   position: absolute;
 }
 
@@ -37,15 +45,6 @@ img.smallPutin {
 }
 
 @media (max-width: 768px) {
-
-  .form-control-clear {
-    z-index: 10;
-    pointer-events: auto;
-    cursor: pointer;
-    right: 21px;
-    top: 20px;
-    position: absolute;
-  }
 
   .card-columns {
     column-count: 2;

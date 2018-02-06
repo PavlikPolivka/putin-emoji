@@ -2,17 +2,31 @@ $(document).ready(function () {
 
     var timeoutID = null;
 
-    $('.has-clear input[type="text"]').on('input propertychange', function() {
-        var $this = $(this);
-        var visible = Boolean($this.val());
-        $this.siblings('.form-control-clear').toggleClass('hidden', !visible);
-    }).trigger('propertychange');
-
     $('.form-control-clear').click(function() {
-        $(this).siblings('input[type="text"]').val('')
-            .trigger('propertychange').focus();
+        $('#searchBox').val('').focus();
+        $('.form-control-clear').toggleClass('hidden');
         $("#resultBox").hide();
     });
+
+    var options = {
+        url: function(phrase) {
+            return "suggest?s=" + phrase;
+        },
+        getValue: "term",
+        list: {
+            onChooseEvent: function() {
+                $('.form-control-clear').toggleClass('hidden');
+                var term = $("#searchBox").getSelectedItemData().term;
+                findImage(term);
+            },
+            match: {
+                enabled: true
+            }
+        },
+        theme: "square"
+    };
+
+    $("#searchBox").easyAutocomplete(options);
 
     renderRecent();
 
@@ -45,13 +59,6 @@ $(document).ready(function () {
                 }
             });
     }
-
-    $('#searchBox').keyup(function (e) {
-        clearTimeout(timeoutID);
-        timeoutID = setTimeout(function () {
-            findImage(e.target.value)
-        }, 500);
-    });
 
 });
 

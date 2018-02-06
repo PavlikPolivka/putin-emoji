@@ -24,6 +24,9 @@
         <p>
             Putin Emoji has publicly accessible REST API endpoint that you can use for searching for your favorite putin emoji.
         </p>
+
+        <h2>Search For Images</h2>
+
         <p>
             <pre>GET https://putinemoji.com/q?s=${queryString}</pre>
         </p>
@@ -50,6 +53,36 @@
         <p>
             Tags are all the tags associated to this image.
         </p>
+
+        <h2>Search For Suggestions</h2>
+
+        <p>
+            <pre>GET https://putinemoji.com/suggest?s=${queryString}</pre>
+        </p>
+
+        <p>
+            Response is in json format.
+        <pre>
+            [
+                {
+                    "term":"hearing",
+                    "weight":0,
+                    "payload":""
+                },
+                {
+                    "term":"heart",
+                    "weight":0,
+                    "payload":""
+                },
+                {
+                    "term":"Heartbeat",
+                    "weight":0,
+                    "payload":""
+                }
+            ]
+            </pre>
+        </p>
+
     </main>
 
 </div>

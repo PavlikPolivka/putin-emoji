@@ -21,10 +21,34 @@ express()
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.render('pages/index'))
   .get('/docs/rest', (req, res) => res.render('pages/rest-api'))
+  .get('/suggest', function(req, res) {
+    var queryString = req.query.s;
+    if(queryString) {
+        var value = myCache.get("suggest" + queryString);
+        if ( value == undefined ){
+            var query = client.query().q(queryString);
+            client.get("suggest", query, function (err, result) {
+                if (err || !result.suggest.default) {
+                    console.log(err);
+                    res.send([]);
+                    return;
+                }
+                value = result.suggest.default[Object.keys(result.suggest.default)[0]].suggestions;
+                myCache.set("suggest" + queryString, value);
+                res.send(value);
+            });
+        }  else {
+            res.send(value);
+        }
+    } else {
+        res.send([]);
+    }
+
+   })
   .get('/q', function (req, res) {
       var queryString = req.query.s;
       if(queryString) {
-          var value = myCache.get(queryString);
+          var value = myCache.get("term" + queryString);
           if ( value == undefined ){
               var query = client.query()
                   .q(queryString)
@@ -39,7 +63,7 @@ express()
                       return;
                   }
                   value = result.response.docs;
-                  myCache.set(queryString, value);
+                  myCache.set("term" + queryString, value);
                   res.send(value);
               });
           } else {
