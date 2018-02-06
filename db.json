@@ -452,5 +452,28 @@
     "file": "horse.jpg",
     "tag": "horse",
     "tag": "animal"
+  },
+  {
+    "id": 61,
+    "file": "it.jpg",
+    "tag": "it",
+    "tag": "clown"
+  },
+  {
+    "id": 62,
+    "file": "tumbleweed.gif",
+    "tag": "tumbleweed"
+  },
+  {
+    "id": 63,
+    "file": "bikini.jpg",
+    "tag": "bikini"
+  },
+  {
+    "id": 64,
+    "file": "gay.jpg",
+    "tag": "gay",
+    "tag": "homo",
+    "tag": "homosexual"
   }
 ]
