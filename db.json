@@ -82,7 +82,6 @@
     "id": 11,
     "file": "kiss.jpg",
     "tag": "kiss",
-    "tag": "couple kissing",
     "tag": "kissy face",
     "tag": "duck face",
     "tag": "Blow A Kiss",
@@ -475,5 +474,31 @@
     "tag": "gay",
     "tag": "homo",
     "tag": "homosexual"
+  },
+  {
+    "id": 65,
+    "file": "dance.gif",
+    "tag": "dance",
+    "tag": "dancing"
+  },
+  {
+    "id": 66,
+    "file": "mirror.gif",
+    "tag": "mirror",
+    "tag": "ready",
+    "tag": "perfect"
+  },
+  {
+    "id": 67,
+    "file": "puppet.gif",
+    "tag": "mirror",
+    "tag": "marionette"
+  },
+  {
+    "id": 68,
+    "file": "nuzzle.gif",
+    "tag": "nuzzle",
+    "tag": "kiss",
+    "tag": "couple"
   }
 ]
