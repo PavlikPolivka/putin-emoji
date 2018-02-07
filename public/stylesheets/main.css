@@ -45,7 +45,20 @@ img.smallPutin {
   display: inline-block;
 }
 
+#logo {
+  width: 225px;
+  top: 0px;
+  position: relative;
+}
+
 @media (max-width: 768px) {
+
+  #logo {
+    width: 225px;
+    top: 7px;
+    left: -10px;
+    position: relative;
+  }
 
   .card-columns {
     column-count: 2;
