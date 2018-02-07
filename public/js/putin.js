@@ -2,10 +2,23 @@ $(document).ready(function () {
 
     var timeoutID = null;
 
+    $(document).keyup(function() {
+        if(!$("#searchBox").val()) {
+            $('.form-control-clear').addClass('hidden');
+        } else {
+            $('.form-control-clear').removeClass('hidden');
+        }
+    });
+
     $('.form-control-clear').click(function() {
         $('#searchBox').val('').focus();
-        $('.form-control-clear').toggleClass('hidden');
         $("#resultBox").hide();
+    });
+
+    $("#searchForm").submit(function( event ) {
+        event.preventDefault();
+        var term = $("#searchBox").val();
+        findImage(term);
     });
 
     var options = {
@@ -15,7 +28,6 @@ $(document).ready(function () {
         getValue: "term",
         list: {
             onChooseEvent: function() {
-                $('.form-control-clear').toggleClass('hidden');
                 var term = $("#searchBox").getSelectedItemData().term;
                 findImage(term);
             },
@@ -50,6 +62,7 @@ $(document).ready(function () {
                         'event_category': 'search',
                         'event_label': 'results'
                     });
+                    $("#linkBox").focus();
                     renderRecent();
                 } else {
                     gtag('event', str, {

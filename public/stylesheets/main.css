@@ -1,9 +1,66 @@
+#recentBox {
+  padding-top: 20px;
+}
+
+#header-put {
+  padding-top: 5px;
+}
+
+#linkBox {
+  border: 1px solid #7f8c8d;
+  border-radius: 0;
+  color: #7f8c8d;
+  font-family: inherit;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 300;
+  margin: 0;
+  min-width: 343px;
+  padding: 12px 43px 12px 15px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1) inset;
+}
+
+#copyBox {
+  position: relative;
+  right: -16px;
+  top: -15px;
+}
+
+.form-control-but {
+  z-index: 10;
+  pointer-events: auto;
+  cursor: pointer;
+  right: 21px;
+  top: 22px;
+  position: absolute;
+}
+
 #searchBox {
   margin-top: 15px;
 }
 
 .easy-autocomplete{
   width:100% !important
+}
+
+#searchForm {
+  width: 100%;
+}
+
+.put-row {
+  display: table;
+  width: 100%;
+}
+
+.put-cell {
+  display: table-cell;
+  vertical-align: middle;
+  width: auto;
+}
+
+.put-logo {
+  width: 220px;
+  padding-top: 16px;
 }
 
 .easy-autocomplete input{
@@ -36,8 +93,8 @@ img.smallPutin {
   z-index: 10;
   pointer-events: auto;
   cursor: pointer;
-  right: 21px;
-  top: 22px;
+  right: 6px;
+  top: 38px;
   position: absolute;
 }
 
@@ -52,6 +109,27 @@ img.smallPutin {
 }
 
 @media (max-width: 768px) {
+
+  .form-control-clear {
+    z-index: 10;
+    pointer-events: auto;
+    cursor: pointer;
+    right: 6px;
+    top: 22px;
+    position: absolute;
+  }
+
+  .put-cell {
+    display: flex;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  #copyBox {
+    position: relative;
+    right: -16px;
+    top: -15px;
+  }
 
   #logo {
     width: 225px;
@@ -74,6 +152,7 @@ img.smallPutin {
   position: fixed;
   bottom: 10px;
   right: 15px;
+  display: none;
 }
 
 #putin {
@@ -98,6 +177,8 @@ img.smallPutin {
 #resultBox {
   display: none;
   padding-top: 30px;
+  padding-left: 18px;
+  padding-right: 14px;
 }
 
 .spinner {

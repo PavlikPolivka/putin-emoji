@@ -8,14 +8,16 @@
 
   <div class="">
 
-    <header>
+    <header id="header-put">
       <nav class="container">
-        <div class="row">
-          <div class="col-md-4 logo-wrapper">
+        <div class="put-row">
+          <div class="put-cell put-logo logo-wrapper">
             <a href="/"><img id="logo" src="/img/logo-new.png?v=1" alt="logo" /></a>
           </div>
-          <div class="col-md-8 btn-group has-clear">
-            <input id="searchBox" class="form-control form-control-lg" type="text" placeholder="Search for emoji. E.g. cool">
+          <div class="put-cell put-search btn-group has-clear">
+            <form id="searchForm">
+              <input id="searchBox" class="form-control form-control-lg" type="text" placeholder="Search for emoji. E.g. cool">
+            </form>
             <span class="form-control-clear hidden">
               <button class="btn btn-default">
                 Clean
@@ -40,7 +42,7 @@
         <div class="row">
           <div class="input-group">
             <input id="linkBox" type="text" class="form-control">
-            <span class="input-group-btn">
+            <span class="form-control-but">
                 <button id="copyBox" class="btn btn-default" onclick="copyToClipboard('#linkBox'); notifyCopied($('#copyBox'));" type="button">Copy url</button>
             </span>
           </div>
